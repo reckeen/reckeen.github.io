@@ -1,3 +1,5 @@
 # reckeen.github.io
 
-## Hello World
+## This is my github-pages repos for my portfolio
+
+Please head to http://reckeen.github.io
