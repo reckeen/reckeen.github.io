@@ -22,7 +22,7 @@ title: Blog and Project Showcase
 email: jasonkeen@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Blog and showcase of Data Engineering or programming projects by Jason Keen.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/reckeen.github.io" # the subpath of your site, e.g. /blog
 domain: "reckeen.github.io"
 url: "https://reckeen.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
