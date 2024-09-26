@@ -1,12 +1,9 @@
 #! /usr/bin/make
-.PHONY: default local_serve copy_assets
+.PHONY: default local_serve
 ASSETS:= diagram.svg
 
-default: copy_assets
+default:
+	echo "what?"
 
 local_serve: 
 	bundle exec jekyll serve
-
-# must be done after the jekyll exec
-copy_assets: $(ASSETS)
-	cp $^ docs/_site/assets/.

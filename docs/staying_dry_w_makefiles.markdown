@@ -79,6 +79,7 @@ clean:
 ---
 # Dependency Graph (a.k.a DAG)
 test
+test2
 ![image](/assets/images/diagram.svg)
 ---
 
