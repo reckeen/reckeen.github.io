@@ -9,7 +9,7 @@ author: Jason Keen
 Welcome!
 
 This is my first post for my blog and showcase site on github.
-I intend to blog around once a week, covering Data Engineering or related topics and showcasing projects that I am working on.
+I intend to cover Data Engineering or related topics and showcasing projects that I am working on.
 
 For my first post I will point to a small Python Pandas project where I attempted to answer a question about Bitcoin mining rates.
 
