@@ -12,7 +12,7 @@ permalink: /Makefile-presentation/
 
 * Waiting (for unnecessary reprocessing)
 * Editing (manual temporary edits of scripts)
-* Time-wasting (easy parallel processing)
+* Time-wasting
 
 ---
 
@@ -59,14 +59,13 @@ clean:
 ```
 ---
 
-# How to use Makefiles
+# How Makefiles work
 
-* _make_ is the executable that interprets a Makefile
 * How make "thinks"
    * Parsing the file
       * Default Rule
       * 2 Phases
-         1. Internalize variables/values and create a dependency graph (the plan)
+         1. Internalize variables/values and create a dependency graph (the potential plan)
          1. Determine which targets need to be updated (based on last-modified-time aka timestamp), and run the recipes needed to update them
 
    * Executing the plan
@@ -78,9 +77,7 @@ clean:
 
 ---
 # Dependency Graph (a.k.a DAG)
-test
-test2
-![image]({{ site.baseurl }}/assets/images/diagram.svg)
+![image](/assets/images/diagram.svg)
 ---
 
 # How to use Makefiles
@@ -154,11 +151,12 @@ CSV_FILES:= $(shell ls *.csv)
 
 ---
 
-# Scenario
-
----
-
 # Recap
 ## Stay D.R.Y.
 ## Save Time
 ## Use Make
+### Read the manual
+https://www.gnu.org/software/make/manual/make.html
+
+Presentation made with remarkjs:
+https://remarkjs.com
