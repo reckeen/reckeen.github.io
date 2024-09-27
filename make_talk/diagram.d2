@@ -1,0 +1,38 @@
+vehicles_split.00 -> Raw_Data
+vehicles_split.01 -> Raw_Data
+vehicles_split.02 -> Raw_Data
+vehicles_split.03 -> Raw_Data
+vehicles_split.04 -> Raw_Data
+vehicles_split.05 -> Raw_Data
+vehicles_split.06 -> Raw_Data
+vehicles_split.07 -> Raw_Data
+
+make_model_year_cols.00 -> vehicles_split.00
+make_model_year_cols.01 -> vehicles_split.01
+make_model_year_cols.02 -> vehicles_split.02
+make_model_year_cols.03 -> vehicles_split.03
+make_model_year_cols.04 -> vehicles_split.04
+make_model_year_cols.05 -> vehicles_split.05
+make_model_year_cols.06 -> vehicles_split.06
+make_model_year_cols.07 -> vehicles_split.07
+
+years.2022 -> make_model_year_cols
+years.2021 -> make_model_year_cols
+years.2020 -> make_model_year_cols
+years.2019 -> make_model_year_cols
+years.2018 -> make_model_year_cols
+years.2017 -> make_model_year_cols
+
+make_model_year_cols.00 -> "get_cols.py"
+make_model_year_cols.01 -> "get_cols.py"
+make_model_year_cols.02 -> "get_cols.py"
+make_model_year_cols.03 -> "get_cols.py"
+make_model_year_cols.04 -> "get_cols.py"
+make_model_year_cols.05 -> "get_cols.py"
+make_model_year_cols.06 -> "get_cols.py"
+make_model_year_cols.07 -> "get_cols.py"
+
+default -> vehicles_split
+default -> make_model_year_cols
+default -> years
+

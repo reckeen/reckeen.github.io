@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+lockfile-create -r 0 /tmp/makefile || exit 1
+trap "lockfile-remove /tmp/makefile" EXIT
+echo $$ > /tmp/makefile.lock
+# pass in the PID to make
+# pass other cmdline options to make
+make MAKE_PID=$$ "${@}"
